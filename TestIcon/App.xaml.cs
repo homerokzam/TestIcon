@@ -12,7 +12,7 @@ namespace TestIcon
     public App ()
     {
       InitializeComponent ();
-      var fix = typeof(UXDivers.Artina.Shared.EntryProperties);
+      //var fix = typeof(UXDivers.Artina.Shared.EntryProperties);
 
       MainPage = new TestIcon.MainPage ();
     }

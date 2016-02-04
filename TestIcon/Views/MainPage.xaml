@@ -10,12 +10,13 @@
       <Button Text="Purge"></Button>
 
       <Label Text="30" FontSize="14" TextColor="{ StaticResource AccentColor }" />
-      <Label Text="&#xf0c0; " FontSize="14" TextColor="{ StaticResource AccentColor }" 
+      <Label Text="&#xf0c0;" FontSize="14" TextColor="{ StaticResource AccentColor }" 
         FontFamily="{ x:Static artina:FontAwesome.FontName }" />
 
       <Label Text="20" FontSize="14" TextColor="{ DynamicResource AccentColor }" />
-      <Label Text="&#xf004; " FontSize="14" TextColor="{ DynamicResource AccentColor }" 
+      <Label Text="&#xf004;" FontSize="14" TextColor="{ DynamicResource AccentColor }" 
         FontFamily="{ x:Static artina:FontAwesome.FontName }" />
+      <Label Text="&#xf294;" />
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
