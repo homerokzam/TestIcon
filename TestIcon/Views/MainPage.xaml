@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+  xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+  x:Class="TestIcon.MainPage">
+  <ContentPage.Content>
+    <StackLayout Padding="0, 20, 0, 0">
+      <Label Text="Teste"></Label>
+      <Button Text="Pesquisar"></Button>
+      <Button Text="Comprar"></Button>
+      <Button Text="Purge"></Button>
+
+      <Label Text="30" FontSize="14" TextColor="{ StaticResource AccentColor }" />
+      <Label Text="&#xf0c0; " FontSize="14" TextColor="{ StaticResource AccentColor }" 
+        FontFamily="{ x:Static artina:FontAwesome.FontName }" />
+
+      <Label Text="20" FontSize="14" TextColor="{ DynamicResource AccentColor }" />
+      <Label Text="&#xf004; " FontSize="14" TextColor="{ DynamicResource AccentColor }" 
+        FontFamily="{ x:Static artina:FontAwesome.FontName }" />
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
